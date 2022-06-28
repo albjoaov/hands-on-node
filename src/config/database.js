@@ -1,8 +1,7 @@
-// const mongoose = require("mongoose");
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/handson");
+mongoose.connect("mongodb://localhost:27017/handson2")
 
-let database = mongoose.connection;
+let db = mongoose.connection
 
-export default database;
+export default db;
